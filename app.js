@@ -65,3 +65,7 @@ app.use((error, req, res, next) => {
     data: data,
   });
 });
+
+app.listen(port, () => {
+  console.log(`listening on port${port}`);
+});
