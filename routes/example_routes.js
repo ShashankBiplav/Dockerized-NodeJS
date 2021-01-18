@@ -6,4 +6,6 @@ const router = express.Router();
 
 router.get('/test',  exampleController.exampleController);
 
+router.post('/upload-image', exampleController.uploadImage);
+
 export default router;
